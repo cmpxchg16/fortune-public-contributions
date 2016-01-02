@@ -1,0 +1,20 @@
+{
+  "version": "2.2.0",
+  "description": "A tool that generates a repository which being pushed into your GitHub account creates a nice contributions calendar.",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git"
+  },
+  "bin": "./lib/server.js",
+  "scripts": {
+    "start": "./lib/server.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "archiver": "^0.14.2",
+    "gry": "^4.0.0",
+    "lien": "0.0.11",
+    "socket.io": "^1.1.0",
+    "ul": "^5.0.0"
+  }
+}
